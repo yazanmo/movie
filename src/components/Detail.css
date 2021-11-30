@@ -1,0 +1,94 @@
+.movie-details-title {
+    display: flex;
+    color: whitesmoke;
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 50%;
+    height: 400px;
+  }
+  
+  .movie-details {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 150px;
+  }
+  
+  .movie-overview {
+    width: 80%;
+    color: whitesmoke;
+    padding: 0 40px;
+  }
+  
+  #backdrop {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.7;
+  }
+  
+  #runtime {
+    margin-left: 592px;
+  }
+  
+  #movie-title-h1 {
+    margin-left: 600px;
+    font-size: 30px;
+  }
+  
+  #details-poster {
+    object-fit: contain;
+    width: 200px;
+  }
+
+  .heart {
+    border: none;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 57.5%;
+    top: 43%;
+    transform: translate(-50%, -50%);
+    background: url(https://cssanimation.rocks/images/posts/steps/heart.png) no-repeat;
+    background-position: 0 0;
+    cursor: pointer;
+  }
+  .heart:hover {
+    background-position: -2800px 0;
+    transition: background 1s steps(28);
+  }
+  /* @keyframes fave-heart {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: -2800px 0;
+    }
+  }
+   */
+  
+  @media only screen and (max-width: 720px) {
+    .movie-details {
+      display: block;
+    }
+  
+    #backdrop {
+      width: 300px;
+    }
+  
+    li {
+      font-size: 20px;
+    }
+    ul {
+      display: inline-block;
+    }
+  }
+  
+  @media only screen and(max-width: 450px) {
+    #backdrop {
+      width: 300px;
+    }
+  }

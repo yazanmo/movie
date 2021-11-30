@@ -1,0 +1,30 @@
+.movie-container{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 100px;
+    margin: 10px 10%;
+    height: 100%;
+    
+}
+
+.movie{
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  width: 200px;
+  height: 450px;
+  margin: 0 50px;
+  margin-top: 70px;
+  cursor: pointer;
+}
+
+.movie-title {
+    font-size: 20px;
+    color: whitesmoke;
+    text-align: center;
+  }
+
