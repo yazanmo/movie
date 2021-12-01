@@ -27,6 +27,8 @@ export default function Mainpage() {
   return (
     <div className="main-cnt">
       <h1>Search for movies .. </h1>
+      <br></br>
+      <br></br>
       <input
         type="text"
         autoComplete="off"
@@ -34,10 +36,15 @@ export default function Mainpage() {
         id="search-input"
         onChange={handleSearch}
       />
-      <div className="movies-cnt">
+     
+     <br></br>
+      <br></br>
+      <h1>Trending movies </h1>
+      <div className="movies-cnt">  
         {movies.results
           ? movies.results.map((movie) => {
               return (
+                
                 <div className="movies-item">
                   {movie.poster_path ? (
                     <img

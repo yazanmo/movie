@@ -5,7 +5,7 @@ html {
   min-height: 100%;
   margin: 0;
   padding: 0;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgb(36, 36, 36) 100%);
+  background: linear-gradient(45deg, rgba(0, 0, 0, 1) 50%, rgb(78, 70, 70) 100%);
   background-repeat: no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;

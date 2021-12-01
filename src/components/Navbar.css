@@ -4,11 +4,7 @@
     justify-content: space-around;
     align-items: center;
     top: 0;
-    background: linear-gradient(
-      90deg,
-      rgba(0, 0, 0, 0.8) 0%,
-      rgba(36, 36, 36, 0.8) 100%
-    );
+   background-color: black;
     z-index: 5;
   }
   
@@ -26,7 +22,7 @@
   }
   
   li:hover {
-    background-color: rgb(136, 105, 105);
+    background-color: rgb(112, 0, 0);
   }
   
   a {
